@@ -28,4 +28,3 @@ with open('response.txt', 'a') as file:
     for i in list(dict(response).values()):
         file.write(str(i))
 
-
